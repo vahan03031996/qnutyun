@@ -5,13 +5,14 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Post extends Model
+class player extends Model
 {
     use HasFactory;
-    protected  $fillable = [
-         'data'
+
+    protected $fillable = [
+        'firstName',
+         'lastName',
+        "teams_id"
+
     ];
-
-
-
 }
